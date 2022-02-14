@@ -1,46 +1,46 @@
-# Introduction of Tornado.Cash
+# Pengenalan Tentang Tornado Cash
 
-**\[Work in progress\]**
+**\[Dalam Proses Pengerjaan]**
 
 ![](.gitbook/assets/image.png)
 
-Tornado Cash is a **fully decentralized** **non-custodial** **protocol** allowing private transactions in the crypto-space. 
+Tornado Cash adalah **protokol** **yang sepenuhnya terdesentralisasi** **tanpa ada penguasaan administrasi data**  yang memungkinkan transaksi rahasia di ruang lingkup crypto. 
 
-As a decentralized protocol, Tornado.Cash smart contracts have been implemented within the Ethereum blockchain which makes them immutable. They can neither be changed or tampered with. Therefore, nobody - including initial developers - can modify or shut them down. All governance and mining smart contracts are deployed by the community in a decentralized manner.
+Sebagai sebuah protokol yang terdesentralisasi, _smart contracts_ Tornado.Cash telah diimplementasikan dalam blockchain Ethereum yang membuatnya tidak dapat diubah. _Smart contracts_ tersebut tidak dapat diubah atau dirusak. Oleh karena itu, tidak ada seorang pun termasuk pengembang awal dapat memodifikasi atau mematikannya. Semua manajemen dan _smart contracts_ penambangan telah diterapkan dengan baik oleh komunitas secara terdesentralisasi.
 
-As a non-custodial protocol, users keep custody of their cryptocurrencies while operating Tornado.Cash. Indeed, at each deposit, they are provided with the private key enabling the access to the deposited funds, which gives users complete control over their assets.
+Sebagai protokol tanpa ada penguasaan administrasi data, mata uang digital para pengguna tetap terjaga pada saat mengoperasikan Tornado.Cash. Memang, di setiap setoran, mereka diberikan kunci pribadi yang memungkinkan dapat mengakses ke dana yang telah disetor, yang memberi kendali penuh kepada para pengguna atas aset mereka.
 
-## How privacy is achieved?
+## Bagaimana kerahasiaan dapat tercapai?
 
-Tornado Cash improves transaction privacy by breaking the on-chain link between source and destination addresses. It uses a smart contract that accepts ETH & other tokens deposits from one address and enable their withdrawal from a different address.
+Tornado Cash meningkatkan kerahasiaan transaksi dengan memutuskan tautan rantai antara alamat semula dan alamat tujuan. Ini menggunakan _smart contracts_ yang menerima deposit ETH & token lainnya dari satu alamat dan memungkinkan penarikan mereka dari alamat yang berbeda.
 
-To preserve privacy, few good practices are in order, such as the use of a relayer for gas payments to withdraw funds towards an address with no pre-existing balance. 
+Untuk menjaga kerahasiaan, ada beberapa urutan langkah yang harus dilakukan, seperti penggunaan relai dalam pembayaran gas untuk menarik dana ke alamat yang tidak memiliki saldo sebelumnya. 
 
-More details are available in _Behind the scenes:_ [_How does Tornado.Cash work?_](how-does-tornado.cash-work.md) _****_& [Tips to remain anonymous](tips-to-remain-anonymous.md).
+Selengkapnya tersedia di _Dibalik layar:_ [_Bagaimana cara kerja Tornado.Cash?_](how-does-tornado.cash-work.md) _****_& [Kiat untuk tetap anonim](tips-to-remain-anonymous.md).
 
-## Where is Tornado.Cash at?
+## Dimana Tornado.Cash beroperasi?
 
-The protocol has been operating on the **Ethereum blockchain** since its inception in 2019. It was recently deployed, in June 2021, on **Binance Smart Chain** & **Polygon**.
+Protokol ini telah beroperasi di **Ethereum blockchain** sejak diluncurkan pada 2019. Baru-baru ini diterapkan, pada Juni 2021, di **Binance Smart Chain** & **Polygon**.
 
-As of today, Tornado.Cash can be used with the following tokens:
+Mulai hari ini, Tornado.Cash dapat juga digunakan pada token berikut ini:
 
-* On Ethereum : **ETH** _\(Ethereum\)_, **DAI** _\(Dai\)_, **cDAI** _\(Compound Dai\)_, **USDC** _\(USD Coin\)_, **USDT** _\(Tether\)_ & **WBTC** _\(Wrapped Bitcoin\)_
-* On Binance Smart Chain: **BNB** _\(Binance Coin\)_.
-* On Polygon Network: **MATIC** _\(Polygon\)_
+* Pada Ethereum : **ETH** _\(Ethereum\)_, **DAI** _\(Dai\)_, **cDAI** _\(Compound Dai\)_, **USDC** _\(USD Coin\)_, **USDT** _\(Tether\)_ & **WBTC** _\(Wrapped Bitcoin\)_
+* Pada Binance Smart Chain: **BNB** _\(Binance Coin\)_.
+* Pada Polygon Network: **MATIC** _\(Polygon\)_
 
 ![](.gitbook/assets/non-custodial-anonymous-transactions-on-ethereum-3-.png)
 
-The protocol also includes an **anonymity mining system for some of its token**, allowing its users to earn a **governance token**. Thanks to TORN tokens, Tornado Cash users actively participate in shaping the protocol. The community has a strong weight regarding the evolution of Tornado Cash and the improvement of its features. Indeed, protocol para@eters & token distribution are completely under the community's control through this governance.
+Protokol ini juga menyertakan **sistem penambangan secara pribadi untuk beberapa tokennya**, yang memungkinkan para penggunanya mendapatkan **token _governance_**. Berkat token TORN, para pengguna Tornado Cash berpartisipasi secara aktif dalam membentuk protokol. Komunitas memiliki pengaruh yang kuat mengenai evolusi Tornado Cash dan peningkatan fitur-fiturnya. Memang, protokol para@eter & distribusi token sepenuhnya berada di bawah kendali komunitas melalui pengelolaan ini.
 
-More information about [Anonymity mining](anonymity-mining.md) & [Tornado.Cash token](torn.md) are available.
+Info lebih lanjut tentang [Penambangan pribadi](anonymity-mining.md) dan [Token Tornado.Cash](torn.md) telah tersedia.
 
-## How does Tornado.Cash run?
+## Bagaimana cara kerja Tornado.Cash?
 
-[Codes behind Tornado.Cash functioning](https://github.com/tornadocash) - smart contacts, circuits & toolchain -  are fully **open sourced.** Working as a DAO \(Decentralized Autonomous Organization\), Tornado.Cash governance and mining smart contracts are deployed by its community.
+[Kode di balik fungsi Tornado.Cash](https://github.com/tornadocash) - _smart contracts_, sirkuit dan _toolchain_ - semua **sumbernya dapat terlihat.** Bekerja sebagai DAO \((Decentralized Autonomous Organization\), pengelolaan Tornado.Cash, dan  _smart contracts_ penambangan diterapkan oleh komunitasnya.
 
-The protocol also functions with zk-SNARK, which enables zero-knowledge proofs allowing users to demonstrate possession of information without needing to reveal it. The use of this technology is based **on open source research made by Zcash team with the help of Ethereum community**. To set-up zk-SNARK initial keys, Tornado.Cash[ Trusted Setup Community](https://tornado-cash.medium.com/tornado-cash-trusted-setup-ceremony-b846e1e00be1) was launched in May 2020 & accounted [for 1114 contributions](https://tornado-cash.medium.com/the-biggest-trusted-setup-ceremony-in-the-world-3c6ab9c8fffa). This significant number of contributors makes it impossible to compromise the protocol by faking zero-knowledge proofs.
+Protokol juga berfungsi dengan zk-SNARK, yang memungkinkan bukti tanpa pengguna harus memiliki pengetahuan untuk menunjukkan kepemilikan informasi tanpa harus mengungkapkannya. Penggunaan teknologi ini didasarkan pada **penelitian terbuka yang dilakukan oleh tim Zcash dengan bantuan komunitas Ethereum**. Untuk mengatur kunci awal zk-SNARK, Tornado.Cash[Pengaturan Kepercayaan Komunitas](https://tornado-cash.medium.com/tornado-cash-trusted-setup-ceremony-b846e1e00be1) telah diluncurkan pada Mei 2020 & diperhitungkan [untuk 1114 kontribusi](https://tornado-cash.medium.com/the-biggest-trusted-setup-ceremony-in-the-world-3c6ab9c8fffa). Jumlah kontributor yang signifikan ini membuat protokol tidak mungkin dikompromikan dengan memalsukan bukti tanpa pengetahuan.
 
-User interface is hosted on **IPFS** \(InterPlanetary File System\) by the community, minimizing risks of data being deleted. Indeed, the interface will work as long as at least one user is hosting it. 
+Tampilan pengguna dirancang di **IPFS** \(InterPlanetary File System\) oleh komunitas, meminimalkan risiko data terhapus. Memang, tampilan akan berfungsi selama setidaknya satu pengguna yang merancangnya.
 
-_Written by_ [_@ayefda_](https://torn.community/u/ayefda)\_\_
+_Ditulis oleh_ [_@ayefda_](https://torn.community/u/ayefda)\_\_
 
